@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.third-container{
+    display: flex;
+    width: 96%;
+    margin: auto;
+    border: .5px solid grey;
+    padding: 1rem;
+    background-color: rgb(156, 160, 199);
+    border-radius: 5px;
+}
+.third-container img{
+    width: 100px;
+    height: 100px;
+    margin-right: .5rem;
+}
+.third-container input{
+    margin-top: 2.5rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.third-container:hover{
+    background-color: #d8d1d1;
+    cursor: pointer;
+} 

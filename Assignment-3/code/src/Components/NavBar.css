@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 50px;
+    width: 98%;
+    margin: 1rem auto;
+    display: flex;
+    border-radius: .5rem;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px grey;
+}
+.navbar:hover{
+    cursor: pointer;
+    background-color: #d8d1d1;
+}
+
+.details h3{
+    font-size: 1rem;
+}
+.details p{
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 3px;
+    opacity: .9;
+}
+.print{
+    margin: .75rem 1rem;
+}
+.print button{
+    padding: .4rem .7rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: .25rem;
+    cursor: pointer;
+} 

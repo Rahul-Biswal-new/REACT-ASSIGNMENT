@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-container{
+    width: 96%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: .75rem;
+    border: .5px solid grey;
+    background-color: rgb(156, 160, 199);
+}
+.first-container:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px grey;
+    background-color: #d8d1d1;
+    border: none;
+}
+.first-container div{
+    display: flex;
+}
+.first-container div h3{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+.first-container div p{
+    font-weight: 400;
+}
